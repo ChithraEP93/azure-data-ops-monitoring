@@ -65,5 +65,16 @@ The monitoring dashboard provides:
 - Success vs Failure Analysis
 
 ## Screenshots
+
+### Success Logging Pipeline
+
+![Success Pipeline](screenshots/pipeline_success_logging.png)
+
+### Failure Logging Pipeline
+
+![Failure Pipeline](screenshots/pipeline_failure_logging.png)
+
 ### Monitoring Dashboard
-Pipeline_sp_failre.png
+
+![Monitoring Dashboard](screenshots/dashboard.png)
+
