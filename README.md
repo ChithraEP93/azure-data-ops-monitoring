@@ -1,8 +1,8 @@
 # azure-data-ops-monitoring
 
-Azure Data Operations and Monitoring platform built using Azure Data Factory, Azure SQL Database, Power BI, and GitHub.
+End-to-end Azure Data Factory monitoring solution built using Azure SQL Database, Stored Procedures, and Power BI.
 
-The project focuses on operational monitoring, audit logging, pipeline execution tracking, and support-oriented reporting commonly used in Azure Data Support and Data Operations environments.
+This project demonstrates how to implement operational monitoring, audit logging, and failure tracking for Azure data pipelines. Pipeline execution details are captured in an audit table and visualized through an interactive Power BI dashboard.
 
 ##Project Objectives
 
@@ -12,8 +12,8 @@ The project focuses on operational monitoring, audit logging, pipeline execution
 --Store audit information in Azure SQL Database
 --Visualize operational KPIs using Power BI
 
-##Planned Architecture
-Source Files
+##Solution Architecture
+Employee CSV
 ↓
 Azure Blob Storage
 ↓
@@ -32,22 +32,37 @@ Power BI Monitoring Dashboard
 --Azure Blob Storage
 --Power BI
 --SQL
+--SQL Stored Procedures
 --Git & GitHub
 
-##Planned Features
+##Audit Metrics Captured
 
---Pipeline audit logging
---Success and failure tracking
---File processing metrics
---Row count monitoring
---Execution duration tracking
---Operational dashboards
---Error investigation reporting
+--Pipeline Name
+--File Name
+--Load Date
+--Status (Success / Failure)
+--Rows Processed
+--Execution Duration
+--Error Message
 
-##Future Enhancements
+##Stored Procedure
+Audit logging is implemented using:
 
---Stored Procedures
---Incremental Processing
---Azure Monitor Integration
---Alerting and Notifications
---Databricks Integration
+--sql/usp_insertAuditing.sql
+
+The stored procedure records pipeline execution details into the Audit_Log table for operational monitoring and troubleshooting.
+##Power BI Dashboard
+
+The monitoring dashboard provides:
+
+--Total Pipeline Runs
+--Successful Runs
+--Failed Runs
+--Average Execution Duration
+--Recent Failure Tracking
+--Pipeline Execution History
+--Success vs Failure Analysis
+
+##Screenshots
+###Monitoring Dashboard
+Pipeline_sp_failre.png
