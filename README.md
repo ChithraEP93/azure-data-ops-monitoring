@@ -6,11 +6,11 @@ This project demonstrates how to implement operational monitoring, audit logging
 
 ## Project Objectives
 
---Monitor Azure Data Factory pipeline executions
---Capture audit and operational metrics
---Track file processing status and execution outcomes
---Store audit information in Azure SQL Database
---Visualize operational KPIs using Power BI
+-- Monitor Azure Data Factory pipeline executions
+-- Capture audit and operational metrics
+-- Track file processing status and execution outcomes
+-- Store audit information in Azure SQL Database
+-- Visualize operational KPIs using Power BI
 
 ## Solution Architecture
 
