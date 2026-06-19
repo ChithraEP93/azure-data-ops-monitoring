@@ -13,6 +13,7 @@ This project demonstrates how to implement operational monitoring, audit logging
 --Visualize operational KPIs using Power BI
 
 ##Solution Architecture
+
 Employee CSV
 ↓
 Azure Blob Storage
