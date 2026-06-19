@@ -72,7 +72,7 @@ The monitoring dashboard provides:
 
 ### Failure Logging Pipeline
 
-![Failure Pipeline](screenshots/pipeline_sp_failure.png)
+![Failure Pipeline](screenshots/Pipeline_sp_success.png)
 
 ### Monitoring Dashboard
 
