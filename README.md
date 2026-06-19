@@ -6,11 +6,11 @@ This project demonstrates how to implement operational monitoring, audit logging
 
 ## Project Objectives
 
--- Monitor Azure Data Factory pipeline executions
--- Capture audit and operational metrics
--- Track file processing status and execution outcomes
--- Store audit information in Azure SQL Database
--- Visualize operational KPIs using Power BI
+- Monitor Azure Data Factory pipeline executions
+- Capture audit and operational metrics
+- Track file processing status and execution outcomes
+- Store audit information in Azure SQL Database
+- Visualize operational KPIs using Power BI
 
 ## Solution Architecture
 
@@ -28,41 +28,41 @@ Power BI Monitoring Dashboard
 
 ## Technologies Used
 
---Azure Data Factory
---Azure SQL Database
---Azure Blob Storage
---Power BI
---SQL
---SQL Stored Procedures
---Git & GitHub
+- Azure Data Factory
+- Azure SQL Database
+- Azure Blob Storage
+- Power BI
+- SQL
+- SQL Stored Procedures
+- Git & GitHub
 
 ## Audit Metrics Captured
 
---Pipeline Name
---File Name
---Load Date
---Status (Success / Failure)
---Rows Processed
---Execution Duration
---Error Message
+- Pipeline Name
+- File Name
+- Load Date
+- Status (Success / Failure)
+- Rows Processed
+- Execution Duration
+- Error Message
 
 ## Stored Procedure
 Audit logging is implemented using:
 
---sql/usp_insertAuditing.sql
+- sql/usp_insertAuditing.sql
 
 The stored procedure records pipeline execution details into the Audit_Log table for operational monitoring and troubleshooting.
 ##P ower BI Dashboard
 
 The monitoring dashboard provides:
 
---Total Pipeline Runs
---Successful Runs
---Failed Runs
---Average Execution Duration
---Recent Failure Tracking
---Pipeline Execution History
---Success vs Failure Analysis
+- Total Pipeline Runs
+- Successful Runs
+- Failed Runs
+- Average Execution Duration
+- Recent Failure Tracking
+- Pipeline Execution History
+- Success vs Failure Analysis
 
 ## Screenshots
 ### Monitoring Dashboard
