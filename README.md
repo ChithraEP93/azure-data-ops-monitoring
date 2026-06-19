@@ -4,7 +4,7 @@ End-to-end Azure Data Factory monitoring solution built using Azure SQL Database
 
 This project demonstrates how to implement operational monitoring, audit logging, and failure tracking for Azure data pipelines. Pipeline execution details are captured in an audit table and visualized through an interactive Power BI dashboard.
 
-##Project Objectives
+## Project Objectives
 
 --Monitor Azure Data Factory pipeline executions
 --Capture audit and operational metrics
@@ -12,7 +12,7 @@ This project demonstrates how to implement operational monitoring, audit logging
 --Store audit information in Azure SQL Database
 --Visualize operational KPIs using Power BI
 
-##Solution Architecture
+## Solution Architecture
 
 Employee CSV
 ↓
@@ -26,7 +26,7 @@ Audit & Monitoring Tables
 ↓
 Power BI Monitoring Dashboard
 
-##Technologies Used
+## Technologies Used
 
 --Azure Data Factory
 --Azure SQL Database
@@ -36,7 +36,7 @@ Power BI Monitoring Dashboard
 --SQL Stored Procedures
 --Git & GitHub
 
-##Audit Metrics Captured
+## Audit Metrics Captured
 
 --Pipeline Name
 --File Name
@@ -46,13 +46,13 @@ Power BI Monitoring Dashboard
 --Execution Duration
 --Error Message
 
-##Stored Procedure
+## Stored Procedure
 Audit logging is implemented using:
 
 --sql/usp_insertAuditing.sql
 
 The stored procedure records pipeline execution details into the Audit_Log table for operational monitoring and troubleshooting.
-##Power BI Dashboard
+##P ower BI Dashboard
 
 The monitoring dashboard provides:
 
@@ -64,6 +64,6 @@ The monitoring dashboard provides:
 --Pipeline Execution History
 --Success vs Failure Analysis
 
-##Screenshots
-###Monitoring Dashboard
+## Screenshots
+### Monitoring Dashboard
 Pipeline_sp_failre.png
